@@ -1,0 +1,302 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@400;500;600;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-size: 18px;
+}
+.container {
+  width: 1280px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+.wrapper {
+  padding: 32px 129px 150px 405px;
+  background-image: url("/img/Vector\ 35.png");
+  background-size: cover;
+  background-position: center;
+}
+.wrapper__row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 580px;
+}
+.wrapper__logo {
+  display: flex;
+  flex-direction: column;
+  gap: 46px;
+}
+.wrapper__logo-title {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  right: 122px;
+  column-gap: 21px;
+}
+.wrapper__logo-title p {
+  width: 300px;
+  padding-top: 10px;
+  border-left: 1px solid #fff;
+  padding: 12px;
+  color: #fff;
+  font-family: "Exo 2";
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.wrapper__logo-text p {
+  color: #fff;
+  font-family: "Exo 2";
+  font-size: 62px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 84px; /* 135.484% */
+  width: 769px;
+  position: relative;
+  right: 60px;
+}
+.wrapper__logo-text p::before {
+  content: url("/icons/dots.svg");
+  position: relative;
+  top: 50px;
+  right: 95px;
+}
+.wrapper__btn {
+  position: relative;
+  right: 280px;
+  display: flex;
+  column-gap: 27px;
+  bottom: 90px;
+}
+.wrapper__btn-btn1 {
+  border-radius: 32px;
+  background: #fcfcfc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 252px;
+  height: 49px;
+}
+.wrapper__btn-btn1 a {
+  color: #000;
+  text-decoration: none;
+  /* padding: 11px 27px 18px 27px; */
+  text-align: center;
+  font-family: "Exo 2";
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 152.941% */
+  letter-spacing: 0.17px;
+  text-transform: uppercase;
+}
+.wrapper__btn-btn2 {
+  stroke-width: 2px;
+  border-radius: 32px;
+  border: 2px solid #fff;
+  width: 252px;
+  height: 49px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wrapper__btn-btn2 a {
+  color: #fff;
+  text-align: center;
+  font-family: "Exo 2";
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 152.941% */
+  letter-spacing: 0.17px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.welcome {
+  padding: 0 0 10px 408px;
+  position: relative;
+  bottom: 130px;
+}
+.welcome__content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.welcome__text {
+  display: flex;
+  flex-direction: column;
+  gap: 66px;
+}
+.welcome__text-title h1 {
+  color: #282828;
+  font-family: "Exo 2";
+  width: 1049px;
+  font-size: 62px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 38px; /* 61.29% */
+}
+.welcome__text-desc p {
+  color: #282828;
+  font-family: "Exo 2";
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 38px; /* 135.714% */
+  width: 851px;
+}
+.welcome__text-btn {
+  border-radius: 35px;
+  background: linear-gradient(180deg, #8d60f1 0%, #18467a 100%);
+  width: 350px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.welcome__text-btn a {
+  color: #fff;
+  text-align: center;
+  font-family: "Exo 2";
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px; /* 188.235% */
+  text-decoration: none;
+}
+.welcome__img {
+  position: relative;
+  right: 169px;
+  bottom: 70px;
+}
+.how-we-work {
+  padding: 0 411px 53px 408px;
+  margin-top: -290px;
+}
+.how-we-work::before {
+  content: url("/icons/dots2.svg");
+  position: relative;
+  right: 400px;
+}
+.how-we-work::after {
+  content: url("/icons/dots2.svg");
+  position: relative;
+  left: 1300px;
+  bottom: 550px;
+}
+.how-we-work__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+.how-we-work__text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 57px;
+}
+.how-we-work__text-title h1 {
+  color: #282828;
+  text-align: center;
+  font-family: "Exo 2";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 75% */
+}
+.how-we-work__cards {
+  display: flex;
+  column-gap: 32px;
+}
+.how-we-work__card {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center;
+  align-items: center; */
+}
+.how-we-work__card-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.how-we-work__card-text-nomer p {
+  color: #00b9ab;
+  font-family: "Exo 2";
+  font-size: 88px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding-top: 26px;
+}
+.how-we-work__card-text {
+  display: flex;
+  column-gap: 32px;
+}
+.how-we-work__card-text-desc p {
+  color: #282828;
+  font-family: "Exo 2";
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 250px;
+  height: 314px;
+  padding-top: 46px;
+}
+.how-we-work__card-text-desc span {
+  color: #282828;
+  font-family: "Exo 2";
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.responsibility {
+  padding: 18px 197px 25px 408px;
+  margin-top: -300px;
+  margin-right: 220px;
+}
+.responsibility__content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 31.44px;
+}
+.responsibility__text {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+.responsibility__text-title h1 {
+  color: #282828;
+  font-family: "Exo 2";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 75% */
+}
+.responsibility__text-desc p {
+  color: #282828;
+  font-family: "Exo 2";
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-left: 10px;
+}
+.responsibility__text-list ul {
+  list-style: none;
+}
+.responsibility__text-desc p::before {
+  content: url("/icons/correct1.svg");
+  position: relative;
+  top: 15px;
+  left: -10px;
+}
